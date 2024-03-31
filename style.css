@@ -1,0 +1,182 @@
+body {
+    background-color: #f6185a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.58;
+    color: #555;
+}
+
+.container {
+    background-color: white;
+    width: 65%;
+    margin-top: 25px;
+    border-radius: 5px;
+    padding: 60px;
+}
+
+i {
+    color: white;
+}
+
+.header-container {
+    background-color: #f6185a;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.header-container h1 {
+    font-family: Oswald;
+    padding: 20px;
+    font-size: 63px;
+    margin: 0;
+}
+
+.header-container p {
+    font-family: Lato;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.header-icons-container i {
+    margin: 10px;
+}
+
+.about-me-content {
+    display: flex;
+}
+
+.about-me-content h2 {
+    margin-bottom: 40px;
+}
+
+
+.about-me-content img {
+    width: 93%;
+    height: auto;
+}
+
+.about-me-content p {
+    margin: 0;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects-container img {
+    width: 93%;
+    height: auto;
+}
+
+
+.work-experience h3 {
+    margin-bottom: 0;
+}
+
+.work-experience p {
+    margin-top: 0;
+}
+
+.education-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education h3 {
+    margin: 0;
+}
+
+.education p {
+    margin-bottom: 0;
+}
+
+.languages {
+    display: flex;
+    justify-content: space-between;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+}
+
+.footer-container {
+    background-color: #f6185a;
+    color: white;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+}
+
+.footer-icons-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #f6185a;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    filter: brightness(120%);
+}
+
+button:active {
+    transform: scale(.9);
+}
+
+input {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1050px) {
+    .about-me-content {
+        display: flex;
+        flex-direction: column;
+      
+    }
+
+    .header-container h1 {
+        font-family: Oswald;
+        padding: 20px;
+        font-size: 40px;
+        margin: 0;
+    }
+    
+    .header-container p {
+        font-family: Lato;
+        font-size: 25px;
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .about-me {
+        margin-top: 0px;
+    } 
+}
